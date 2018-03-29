@@ -28,7 +28,7 @@ body {
 #page {
   position: relative;
 /*  overflow-x: hidden;
-*/background-color: pink;
+*/background-color: rgba(33, 15, 29, 0.7);
   width: 100%;
   height: 100%;
   -webkit-transition: 0.5s;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 20px 0;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(33, 15, 29, 0.7));
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -765,7 +765,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 5em 0;
+  padding: 0em 0;
   clear: both;
   position: relative;
   background-color: black;
@@ -870,12 +870,12 @@ form label {
   }
 }
 .flex-section .col-1 {
-  padding: 7em 0;
+  padding: 12em 0;
   width: 65%;
 }
 .flex-section .col-1 .text {
-  padding-left: 40%;
-  padding-right: 10%;
+  padding-left: 22%;
+  padding-right: 12%;
 }
 @media screen and (max-width: 1200px) {
   .flex-section .col-1 .text {
@@ -1174,7 +1174,7 @@ form label {
 }
 
 #gtco-footer {
-  padding: 1em 0 !important; 
+  padding: 2em 0 !important; 
   padding-top: 0em;
   background: #4d4d4d;
   color: rgba(255, 255, 255, 0.3);
@@ -1700,6 +1700,18 @@ form label {
     margin-top: 7em;
   }
 }
+.row-footer {
+  margin-left: -170px;
+  margin-right: -100px;
+}
+.row-footer:before, .row-footer:after {
+  content: " ";
+  display: table;
+}
+.row-footer:after {
+  clear: both;
+}
+
 
 .mt-sm {
   margin-top: 6em;
