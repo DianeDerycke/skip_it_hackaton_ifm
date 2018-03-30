@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+*   Template Style 
 *
 * ======================================================= */
 
@@ -16,8 +16,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #777;
-  background: #fff;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background: #F6DDD6;
 }
 
 .col-xs-12 {
@@ -124,7 +125,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -424,6 +425,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-header h1 {
   margin-bottom: 0px;
   margin-right: 0px;
+  margin-left: -10% !important;
   font-size: 59px;
   line-height: 1.5;
   font-weight: 300;
@@ -942,8 +944,11 @@ form label {
 .flex-section .col-1 {
   padding: 12em 0;
   padding-top: 7em;
+  margin-right: 17%;
+  margin-left: 17%;
   width: 65%;
 }
+
 .flex-section .col-1 .text {
   padding-left: 22%;
   padding-right: 12%;
@@ -1054,8 +1059,26 @@ form label {
   width: 100%;
 }
 
-.gtco-gray-bg {
+.bc-img{
+  background-image: url(../images/skip_it_2.jpg);
+  filter: blur(../images/skip_it_2.jpg);
   background-color: #f6f9fc;
+  background-position: 10% -263%;
+  background-size: 101%;
+  background-repeat: no-repeat !important;
+*/  opacity: 0.6;
+}
+
+.gtco-gray-bg {
+/*  background-image: url(../images/skip_it_2.jpg);
+  filter: blur(../images/skip_it_2.jpg);
+  background-color: #f6f9fc;
+  background-position: 10% -263%;
+  background-size: 101%;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+*/  margin-bottom: -42%;
+  z-index: 9999;
 }
 .gtco-gray-bg.skew {
   position: relative;
@@ -1324,7 +1347,8 @@ form label {
 }
 #gtco-footer .copyright {
   color: #b3b3b3;
-  padding-top: 3em;
+  padding-top: 6em;
+  padding-bottom: 0em;
   margin-top: 3em;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -2283,7 +2307,7 @@ form label {
   to: .2em;
   content: "\e116";
   font-size: 26px;
-  color: ;
+  color:;
 }
 
 /*# sourceMappingURL=style.css.map */
