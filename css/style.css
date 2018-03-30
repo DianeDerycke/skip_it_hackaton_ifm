@@ -19,6 +19,7 @@ body {
   color: white;
   text-shadow: 1px 1px 1px black;
   background: #F6DDD6;
+  background-size: -500px !important;
 }
 
 .col-xs-12 {
@@ -122,6 +123,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
+  font-size: 29px !important;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -569,11 +571,11 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .gtco-cover .display-t,
   .gtco-cover .display-tc {
-    height: 600px;
+    height: 300px;
   }
 }
 .gtco-cover.gtco-cover-sm {
-  height: 600px;
+  height: 320px;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover.gtco-cover-sm {
@@ -756,7 +758,7 @@ form label {
 #gtco-counter .display-tc h1,
 .gtco-cover .display-tc h1 {
   margin-bottom: 5%;
-  font-size: 51px;
+  font-size: 40px;
   line-height: 1.5;
   font-weight: 300;
 }
@@ -862,7 +864,7 @@ form label {
 }
 
 #gtco-features {
-  margin-top: -8em;
+  margin-top: 4em;
   padding-top: 10em;
   padding-bottom: 7em;
   position: relative;
@@ -873,7 +875,7 @@ form label {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 165%;
+  height: 145%;
   top: 0;
   -webkit-transform: skewY(-12deg);
   -moz-transform: skewY(-12deg);
@@ -1207,6 +1209,11 @@ form label {
   color: gray;
 }
 
+.footer-resize {
+  margin-top: 12%;
+  margin-bottom: -8%
+}
+
 #gtco-products {
   background: #008ee0;
 }
@@ -1283,8 +1290,8 @@ form label {
 }
 
 #gtco-footer {
-  padding: 2em 0 !important; 
-  padding-top: 0em;
+  padding: 7em 0 !important; 
+  padding-top: 27em !important;
   background: #4d4d4d;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -1347,9 +1354,9 @@ form label {
 }
 #gtco-footer .copyright {
   color: #b3b3b3;
-  padding-top: 6em;
+  padding-top: 0em;
   padding-bottom: 0em;
-  margin-top: 3em;
+  margin-top: -17em;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media screen and (max-width: 768px) {
