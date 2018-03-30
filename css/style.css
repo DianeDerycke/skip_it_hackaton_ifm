@@ -25,6 +25,59 @@ body {
   font-size: 16px;
 }
 
+.row #step p{
+  background-image: url("../images/step_1.png");
+  background-repeat: no-repeat;
+  background-size: 81%;
+  background-position: 64% 10%;
+  padding-top: 89%;
+  padding-right: 78%;
+  padding-left: 0%;
+  padding-bottom: 39%;
+  margin-left: 40%;
+  margin-top: 18%;
+}
+
+#step2 p{
+  background-image: url("../images/step_2.png");
+  background-repeat: no-repeat;
+  background-size: 81%;
+  background-position: 77% 10%;
+  padding-top: 89%;
+  padding-right: 78%;
+  padding-left: 0%;
+  padding-bottom: 39%;
+  margin-left: 22%;
+  margin-top: 18%;
+}
+
+#step3 p{
+  background-image: url("../images/step_3.png");
+  background-repeat: no-repeat;
+  background-size: 81%;
+  background-position: 77% 10%;
+  padding-top: 89%;
+  padding-right: 78%;
+  padding-left: 0%;
+  padding-bottom: 39%;
+  margin-left: 40%;
+  margin-top: 18%;
+}
+
+#step4 p{
+  background-image: url("../images/step_4.png");
+  background-repeat: no-repeat;
+  background-size: 81%;
+  background-position: 77% 10%;
+  padding-top: 89%;
+  padding-right: 78%;
+  padding-left: 0%;
+  padding-bottom: 39%;
+  margin-left: 22%;
+  margin-top: 18%;
+}
+
+
 #page {
   position: relative;
 /*  overflow-x: hidden;
@@ -161,7 +214,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 20px 0;
   z-index: 1001;
-  background: rgba(33, 15, 29, 0.7));
+  background: rgba(246, 221, 225, 0.7) !important;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -294,16 +347,18 @@ h1, h2, h3, h4, h5, h6, figure {
   color: ;
 }
 .gtco-nav ul li.active > a {
-  color: #66D2C2 !important;
+  color: white !important;
 /*  margin-right: 42%;
 */}
-
 
 #gtco-header {
   position: absolute;
   top: 0;
-  background-image: url("../images/img_bg_2.jpg") !important;
-  background: #4d4d4d;
+  background-image: url("../images/skip_it_1.png") !important;
+  background-position: 14% 30% !important;
+  background: #F6DDD6;
+  background-attachment: scroll !important;
+  background-size: 20% !important;
   margin-bottom: -10%;
 }
 
@@ -368,14 +423,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #gtco-header h1 {
   margin-bottom: 0px;
+  margin-right: 0px;
   font-size: 59px;
   line-height: 1.5;
   font-weight: 300;
   text-transform: uppercase !important;
+  margin: -4%;
 }
 #gtco-header h1 strong {
   font-weight: 700;
-  color: #66D2C2;
+  color: #48C3D5;
 }
 @media screen and (max-width: 768px) {
   #gtco-header h1 {
@@ -395,8 +452,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-counter,
 .gtco-bg {
   background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
+/*  background-position: top center;
+*/  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -490,7 +547,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: black;
+  background: #4d4d4d;
 }
 .gtco-cover > .gtco-container {
   position: relative;
@@ -804,16 +861,17 @@ form label {
 
 #gtco-features {
   margin-top: -8em;
-  padding-top: 5em;
+  padding-top: 10em;
+  padding-bottom: 7em;
   position: relative;
-  background-color: white;
+  background-color: #F6DDD6;
 }
 #gtco-features:before {
   content: "";
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 180%;
+  height: 165%;
   top: 0;
   -webkit-transform: skewY(-12deg);
   -moz-transform: skewY(-12deg);
@@ -869,12 +927,13 @@ form label {
   content: "";
   position: absolute;
   height: 120%;
-  background: #f6f9fc;
+  background: white;
   width: 100px;
   -webkit-transform: skewX(-12deg);
   -moz-transform: skewX(-12deg);
   transform: skewX(-12deg);
-}*/
+}
+*/
 @media screen and (max-width: 768px) {
   .flex-section .flex-img:before {
     display: none;
@@ -910,7 +969,8 @@ form label {
 .flex-section .col-2 {
   width: 35%;
   background-size: cover;
-  background-position: center center;
+  background-position: center 0%;
+  background-size: 127%;
   min-height: 450px;
 }
 @media screen and (max-width: 992px) {
@@ -1020,6 +1080,11 @@ form label {
   float: left;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .feature-center {
+    margin-bottom: 50px;
+  }
+}
 
 .feature-center {
   text-align: center;
@@ -1088,6 +1153,10 @@ form label {
   font-size: 18px;
   color: #1a1a1a;
   margin-bottom: 10px;
+}
+
+.feature-center .step {
+  background-image: url(../images/step_1.png) !important;
 }
 
 .gtco-heading {
@@ -1526,9 +1595,9 @@ form label {
 }
 
 .btn-primary {
-  background: #66D2C2;
+  background: #48C3D5;
   color: #fff;
-  border: 15px solid #66D2C2 !important;
+  border: 15px solid #48C3D5 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #7ad98f !important;
@@ -1720,6 +1789,10 @@ form label {
 }
 .row-mt-15em {
   margin-top: 15em;
+}
+
+.row-mt-7em {
+  margin-top: 7em;
 }
 
 .row-mt-9em{
