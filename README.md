@@ -7,9 +7,11 @@ I had to make a simple website to illustrate the application and its goal.
 
 ## Getting Started
 
-If you want to see the website, please make sure to `git clone https://github.com/DianeDerycke/skip_it_hackaton_ifm.git`
+If you want to see the website, please make sure to run the following commands :
 
-Run the command `open index.html`
+- `git clone https://github.com/DianeDerycke/skip_it_hackaton_ifm.git`
+
+- `open index.html`
 
 ## Acknowledgments
 
