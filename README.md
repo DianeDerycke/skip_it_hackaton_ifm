@@ -16,4 +16,4 @@ If you want to see the website, please make sure to run the following commands :
 ## Acknowledgments
 
 - 42 school and IFM to gave us the opportunity to participate to this enriching experience.
-- The 3 students with who i have done this project, i learnt a lot from them.
+- The 3 students with whom i have done this project, i learnt a lot from them.
