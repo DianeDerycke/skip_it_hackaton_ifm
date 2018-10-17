@@ -1,4 +1,4 @@
-# Skip it
+# Hackaton 42xIFM - Skip it
 
 During this Hackaton, we had to find innovative solutions to improve the customer journey. We realized that the wait at checkout was too long which had the effect of dissuading one buyer in five. We have, therefore, imagined a mobile payment platform "SkipIt" to perform a self-check out sold to partners.
 
