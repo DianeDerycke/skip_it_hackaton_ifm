@@ -11,7 +11,7 @@ If you want to see the website, please make sure to run the following commands :
 
 - `git clone https://github.com/DianeDerycke/skip_it_hackaton_ifm.git`
 
-- `open skip_it_hackaton_ifm/index.html`
+- `open ./skip_it_hackaton_ifm/index.html`
 
 ## Acknowledgments
 
