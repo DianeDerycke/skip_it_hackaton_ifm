@@ -10,3 +10,8 @@ I had to make a simple website to illustrate the application and its goal.
 If you want to see the website, make sure to git clone [Skip it](https://github.com/DianeDerycke/skip_it_hackaton_ifm.git)
 
 Run the command `open index.html`
+
+## Acknowledgments
+
+- 42 school and IFM to gave us the opportunity to participate to this enriching experience.
+- The 3 students with who i have done this project, i learnt a lot from them.
